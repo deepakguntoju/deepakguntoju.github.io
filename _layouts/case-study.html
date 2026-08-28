@@ -1,0 +1,58 @@
+---
+layout: default
+---
+<nav class="breadcrumb" aria-label="Breadcrumb">
+  <a href="{{ '/projects/' | relative_url }}">Projects</a> / {{ page.case_id | upcase }} — {{ page.short_title }}
+</nav>
+
+<div class="docmeta">
+  CASE STUDY {{ page.case_id | upcase }}<span class="dot">·</span>REV {{ page.revision }}<span class="dot">·</span><span class="status-dot">●</span> {{ page.status | upcase }}<span class="dot">·</span>{{ page.reading_time }} MIN READ
+</div>
+
+<h1>{{ page.title }}</h1>
+<p class="standfirst">{{ page.standfirst }}</p>
+
+<div class="exec-summary" role="group" aria-label="Executive summary">
+  <div class="exec-cell">
+    <span class="kicker">Problem</span>
+    <p>{{ page.summary.problem }}</p>
+  </div>
+  <div class="exec-cell">
+    <span class="kicker">The build</span>
+    <p>{{ page.summary.build }}</p>
+  </div>
+  <div class="exec-cell">
+    <span class="kicker">Outcome</span>
+    <p>{{ page.summary.outcome }}</p>
+  </div>
+  <div class="exec-cell">
+    <span class="kicker">My scope</span>
+    <p>{{ page.summary.scope }}</p>
+  </div>
+</div>
+
+<details class="toc">
+  <summary>On this page</summary>
+  <ol>
+    <li><a href="#problem">01 Problem</a></li>
+    <li><a href="#architecture">02 Architecture</a></li>
+    <li><a href="#implementation">03 Implementation</a></li>
+    <li><a href="#security-workflow">04 Security Workflow</a></li>
+    <li><a href="#evidence">05 Evidence</a></li>
+    <li><a href="#results">06 Results</a></li>
+    <li><a href="#lessons">07 Lessons Learned</a></li>
+  </ol>
+</details>
+
+<article class="measure">
+  {{ content }}
+</article>
+
+<nav class="pager" aria-label="Case study navigation">
+  {% if page.prev_url %}
+    <a href="{{ page.prev_url | relative_url }}">← {{ page.prev_id | upcase }} · {{ page.prev_title }}</a>
+  {% else %}<span></span>{% endif %}
+  {% if page.next_url %}
+    <a href="{{ page.next_url | relative_url }}">{{ page.next_id | upcase }} · {{ page.next_title }} →</a>
+  {% else %}<span></span>{% endif %}
+</nav>

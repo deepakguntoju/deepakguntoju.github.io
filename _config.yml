@@ -1,0 +1,37 @@
+title: Deepak Guntoju
+description: >-
+  Senior Cloud Security Engineer / Security Platform Engineer — AppSec, DevSecOps,
+  ASPM, and cloud security. Case studies and technical evidence from a public,
+  sanitized security-orchestration platform proof-of-concept.
+author: Deepak Guntoju
+email: guntojudeepak0799@gmail.com
+url: "https://deepakguntoju.github.io"
+baseurl: ""
+
+github_username: deepakguntoju
+linkedin_username: deepak-guntoju-6694421b2
+
+show_excerpts: false
+collections: {}
+
+plugins:
+  - jekyll-seo-tag
+
+markdown: kramdown
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+
+defaults:
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "page"
+
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - vendor
+  - node_modules

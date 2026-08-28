@@ -1,0 +1,14 @@
+<header class="topbar">
+  <div class="wrap">
+    <a class="wordmark" href="{{ '/' | relative_url }}">Deepak Guntoju — Security Engineer</a>
+    <nav aria-label="Primary">
+      <a href="{{ '/about/' | relative_url }}"{% if page.url == '/about/' %} aria-current="page"{% endif %}>About</a>
+      <a href="{{ '/projects/' | relative_url }}"{% if page.url contains '/projects/' %} aria-current="page"{% endif %}>Projects</a>
+      <a href="{{ '/resume/' | relative_url }}"{% if page.url == '/resume/' %} aria-current="page"{% endif %}>Resume</a>
+      <span class="icon-links">
+        <a href="https://github.com/{{ site.github_username }}" target="_blank" rel="noopener">GH↗</a>
+        <a href="https://www.linkedin.com/in/{{ site.linkedin_username }}" target="_blank" rel="noopener">LI↗</a>
+      </span>
+    </nav>
+  </div>
+</header>
