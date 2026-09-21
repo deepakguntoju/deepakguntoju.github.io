@@ -88,31 +88,26 @@ How a finding actually moves through the platform, end to end:
 
 <h2 id="evidence"><span class="kicker">05</span>Evidence</h2>
 
-This is the platform actually operating, not a design document — real screenshots from a running instance, redacted only of internal project names and internal product branding.
-
-<figure class="evidence">
-  <img src="https://raw.githubusercontent.com/deepakguntoju/security-enablement-platform-poc/main/docs/screenshots/findings-hub-and-compliance/01-dashboard-security-posture.png" alt="Findings hub dashboard showing severity distribution and gate decisions" loading="lazy">
-  <figcaption>E-1 — Findings hub dashboard: real portfolio-wide severity distribution — approximately 5% critical, 37% high, 41% medium, 18% low (sanitized recreation of internal project names; exact finding counts and volumes redacted).</figcaption>
-</figure>
+This is the platform actually operating, not a design document — real screenshots from a running instance, redacted only of internal project names and internal product branding. Portfolio-wide severity distribution: approximately 5% critical, 37% high, 41% medium, 18% low.
 
 <figure class="evidence">
   <img src="https://raw.githubusercontent.com/deepakguntoju/security-enablement-platform-poc/main/docs/screenshots/findings-hub-and-compliance/03-build-detail-pipeline-gate.png" alt="Build detail page showing a blocked security gate decision and risk enrichment" loading="lazy">
-  <figcaption>E-2 — Build detail: full pipeline stage breakdown, a real BLOCKED gate decision (SECRETS: BLOCK vs. VULNERABILITY: WARN), EPSS/KEV risk enrichment, SBOM sync status.</figcaption>
+  <figcaption>E-1 — Build detail: full pipeline stage breakdown, a real BLOCKED gate decision (SECRETS: BLOCK vs. VULNERABILITY: WARN), EPSS/KEV risk enrichment, SBOM sync status.</figcaption>
 </figure>
 
 <figure class="evidence">
   <img src="https://raw.githubusercontent.com/deepakguntoju/security-enablement-platform-poc/main/docs/screenshots/findings-hub-and-compliance/05-governance-audit-trail.png" alt="Governance audit trail showing real security gate override events" loading="lazy">
-  <figcaption>E-3 — Governance audit trail: real <code>SECURITY_GATE_OVERRIDE_SET</code> / <code>SECURITY_GATE_OVERRIDE_CLEARED</code> events with timestamps and identities — the risk-acceptance workflow actually in use.</figcaption>
+  <figcaption>E-2 — Governance audit trail: real <code>SECURITY_GATE_OVERRIDE_SET</code> / <code>SECURITY_GATE_OVERRIDE_CLEARED</code> events with timestamps and identities — the risk-acceptance workflow actually in use.</figcaption>
 </figure>
 
 <figure class="evidence">
   <img src="https://raw.githubusercontent.com/deepakguntoju/security-enablement-platform-poc/main/docs/screenshots/findings-hub-and-compliance/04-compliance-owasp-asvs.png" alt="OWASP ASVS compliance mapping showing 127 controls and their status" loading="lazy">
-  <figcaption>E-4 — OWASP ASVS v4.0.1 compliance mapping for a real build: 127 controls, evidenced/passed/failed/at-risk/not-assessed breakdown.</figcaption>
+  <figcaption>E-3 — OWASP ASVS v4.0.1 compliance mapping for a real build: 127 controls, evidenced/passed/failed/at-risk/not-assessed breakdown.</figcaption>
 </figure>
 
 <div class="callout">
 <span class="kicker">Evidence &amp; redaction note</span>
-<p>Screenshots are unedited captures of a running instance except for black-box redaction of internal project names and one internal product wordmark — no data was fabricated or recreated. A real, unedited pipeline gate report against the public Flask repository (secret scan, SAST, SCA, SBOM, a genuine policy-override decision) is also available: <a href="https://github.com/deepakguntoju/security-enablement-platform-poc/blob/main/docs/reports/security_report_flask-app_build8.html">view the report ↗</a>.</p>
+<p>Screenshots are unedited captures of a running instance except for black-box redaction of internal project names, internal product branding, and (on one dashboard capture, since removed for being illegible once redacted) portfolio-wide finding volumes — no data was fabricated or recreated. A real, unedited pipeline gate report against the public Flask repository (secret scan, SAST, SCA, SBOM, a genuine policy-override decision) is also available: <a href="https://github.com/deepakguntoju/security-enablement-platform-poc/blob/main/docs/reports/security_report_flask-app_build8.html">view the report ↗</a>.</p>
 </div>
 
 <h2 id="results"><span class="kicker">06</span>Results</h2>
