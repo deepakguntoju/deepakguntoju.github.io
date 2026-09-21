@@ -55,21 +55,5 @@ description: >-
   </a>
 </div>
 
-<h2><span class="kicker">Freelance / contract</span>What I can help with</h2>
-<div class="triad">
-  <div>
-    <span class="kicker">Architect</span>
-    <p>Threat modeling, security architecture reviews, ADR-driven design decisions, compliance mapping (OWASP ASVS, NIST 800-53).</p>
-  </div>
-  <div>
-    <span class="kicker">Build</span>
-    <p>CI/CD security gates (Jenkins/GitHub Actions), SAST/SCA/DAST integration, SBOM &amp; supply-chain tooling (Dependency-Track, DefectDojo), cloud security (AWS/GCP).</p>
-  </div>
-  <div>
-    <span class="kicker">Evidence</span>
-    <p>Correlated findings models, benchmark methodology, before/after reachability analysis — claims backed by artifacts, not slide decks.</p>
-  </div>
-</div>
-
 <h2><span class="kicker">About</span>Background</h2>
 <p>5+ years across application security, DevSecOps, and cloud security — four years of hands-on AppSec delivery at Cognizant, followed by platform/architecture work designing a reusable ASPM system. <a href="/about/">Read more →</a></p>
