@@ -9,7 +9,7 @@ description: About Deepak Guntoju — background in AppSec, DevSecOps, and cloud
 
 # About
 
-I'm a security engineer with 5+ years of experience spanning application security, DevSecOps, and cloud security — currently a Senior Cloud Security Engineer at Impresa AI (Abjayon Group), based in Hyderabad, India.
+I'm a security engineer with 5+ years of experience spanning application security, DevSecOps, and cloud security — currently a Senior Cloud Security Engineer at the AI-enabled product division of a global enterprise technology & digital-transformation services company, based in Hyderabad, India.
 
 My path started in hands-on AppSec: four years at Cognizant running SAST (Checkmarx) and DAST (OWASP ZAP) programs, secure code review, IAM deployment (Okta, Delinea), and SIEM operations (Splunk) across large-scale enterprise applications. That foundation — where vulnerabilities actually come from, how remediation really gets tracked, what makes a finding worth a developer's time — is the part of this work that doesn't show up in an architecture diagram but shapes every decision above it.
 
