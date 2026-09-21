@@ -92,7 +92,7 @@ This is the platform actually operating, not a design document — real screensh
 
 <figure class="evidence">
   <img src="https://raw.githubusercontent.com/deepakguntoju/security-enablement-platform-poc/main/docs/screenshots/findings-hub-and-compliance/01-dashboard-security-posture.png" alt="Findings hub dashboard showing severity distribution and gate decisions" loading="lazy">
-  <figcaption>E-1 — Findings hub dashboard: real portfolio data, 44 critical / 344 high / 377 medium / 163 low findings across 5 projects / 10 services (sanitized recreation of internal project names only).</figcaption>
+  <figcaption>E-1 — Findings hub dashboard: real portfolio-wide severity distribution — approximately 5% critical, 37% high, 41% medium, 18% low (sanitized recreation of internal project names; exact finding counts and volumes redacted).</figcaption>
 </figure>
 
 <figure class="evidence">
