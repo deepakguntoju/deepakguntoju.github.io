@@ -11,7 +11,7 @@ description: About Deepak Guntoju — background in AppSec, DevSecOps, and cloud
 
 I'm a security engineer with 5+ years of experience spanning application security, DevSecOps, and cloud security — currently a Senior Cloud Security Engineer at the AI-enabled product division of a global enterprise technology & digital-transformation services company, based in Hyderabad, India.
 
-My path started in hands-on AppSec: four years at Cognizant running SAST (Checkmarx) and DAST (OWASP ZAP) programs, secure code review, IAM deployment (Okta, Delinea), and SIEM operations (Splunk) across large-scale enterprise applications. That foundation — where vulnerabilities actually come from, how remediation really gets tracked, what makes a finding worth a developer's time — is the part of this work that doesn't show up in an architecture diagram but shapes every decision above it.
+My path started in hands-on AppSec: four years at a leading global IT & business consulting firm — delivering application security for banking and financial-services clients under PCI-DSS — running SAST (Checkmarx) and DAST (OWASP ZAP) programs, secure code review, IAM deployment (Okta, Delinea), and SIEM operations (Splunk) across large-scale enterprise applications. That foundation — where vulnerabilities actually come from, how remediation really gets tracked, what makes a finding worth a developer's time — is the part of this work that doesn't show up in an architecture diagram but shapes every decision above it.
 
 The last year has been a shift from *running* security tooling to *building the systems that run it*. I designed and built a reusable security-orchestration (ASPM) platform that consolidates CI/CD security, SCA, secrets detection, container security, and supply-chain intelligence into one correlated findings workflow — architected as a repeatable platform capability, not a project-specific pipeline. Inside that platform, I built a native static reachability analysis engine because standard SCA tooling's biggest practical failure is noise: flagging a vulnerability in a dependency that's present but never actually called.
 
@@ -31,7 +31,7 @@ Two ideas run through everything I build:
 <table>
 <thead><tr><th>Area</th><th>Depth</th><th>Evidence</th></tr></thead>
 <tbody>
-<tr><td>Application Security &amp; Secure SDLC</td><td>Deep</td><td><a href="/resume/">4 years hands-on, Cognizant</a></td></tr>
+<tr><td>Application Security &amp; Secure SDLC</td><td>Deep</td><td><a href="/resume/">4 years hands-on, banking/financial-services clients (PCI-DSS)</a></td></tr>
 <tr><td>DevSecOps / CI/CD Security</td><td>Deep</td><td><a href="/projects/security-enablement-platform/">Security Enablement Platform</a></td></tr>
 <tr><td>Security Platform Engineering / ASPM</td><td>Deep</td><td><a href="/projects/security-enablement-platform/">Security Enablement Platform</a></td></tr>
 <tr><td>Static Analysis / Reachability Research</td><td>Deep</td><td><a href="/projects/native-sast-reachability/">Native SAST &amp; Reachability Engine</a></td></tr>
