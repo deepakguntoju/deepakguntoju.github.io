@@ -56,4 +56,4 @@ description: >-
 </div>
 
 <h2><span class="kicker">About</span>Background</h2>
-<p>5+ years across application security, DevSecOps, and cloud security — four years of hands-on AppSec delivery at Cognizant, followed by platform/architecture work designing a reusable ASPM system. <a href="/about/">Read more →</a></p>
+<p>5+ years across application security, DevSecOps, and cloud security — four years of hands-on AppSec delivery for banking/financial-services clients under PCI-DSS, followed by platform/architecture work designing a reusable ASPM system. <a href="/about/">Read more →</a></p>
