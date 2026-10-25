@@ -35,3 +35,4 @@ exclude:
   - Gemfile.lock
   - vendor
   - node_modules
+  - pentest-program
